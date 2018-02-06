@@ -1,0 +1,102 @@
+\documentclass[a4paper,12pt,portuges]{article}
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+
+
+\title{Relatório do Projeto de Laboratórios de Informática II}
+\author{Bruno Pereira \\ Maria Ana de Brito}
+\date{\today}
+
+\newpage
+
+\begin{document}
+
+\maketitle{}
+
+
+\newpage
+
+
+
+\section{Introdução}
+
+O projeto proposto baseia-se no puzzle da Batalha Naval, em que a partir de um tabuleiro inicial, o utilizador tem de descobrir em que posições é que se encontram os barcos.
+
+\subsection{1ª Fase}
+
+O intuito desta primeira fase do projeto é criar um código que consiga extrair do standard input as informações sobre o tabuleiro com que iremos lidar, assim como manipulá-lo, isto é, mudar o seu estado, assumindo que algumas posições são compostas por água e outras por barcos ou submarinos. Além disso, também nos foram propostos mais dois comandos que visam a visualização do tabuleiro, bem como a saída do programa.
+
+\subsection{2ª Fase}
+
+Na segunda fase do projeto foram introduzidos novos comandos que, maioritariamente, são peças cruciais na resolução do problema dado.
+Estes comandos passam por estratégias de resolução a anulamento de certas ações (aquelas que alteram o estado do tabuleiro). No entanto, outros comandos importantes tais como leitura ou escrita através de um ficheiro e verificação do tabuleiro.
+ 
+\subsection{3ª Fase}
+
+A fase 3 poderia chamar-se o \textit{Finale}, pois é nesta fase que o trabalho acaba. Esta fase já não passa simplesmente pela criação de código, mas também pelas ferramentas que o completam.
+Relativamente ao código, esta tarefa introduz os dois últimos comandos o Gera e o Resolve. O Gera consiste em gerar um tabuleiro válido com solução única e o Resolve consiste na resolução do tabuleiro dado.
+Relativamente ao "resto", nesta fase é necessária a entrega da documentação do código (através da ferramenta \textit{doxygen}) e o relatório em \textit{pdf} que contém os métodos de resolução dos dois comandos e a análise do código gerado.
+
+\newpage
+
+
+\section{Objetivos}
+
+Os objetivos definidos pelo grupo para este trabalho encontram-se, de seguida, apresentados:
+
+\begin{enumerate}
+\item Conhecer melhor a linguagem \textit{C} e as suas bibliotecas;
+\item Ganhar conhecimentos sobre ciclos, vetores e outras particularidades da linguagem; 
+\item Analisar um enunciado e tentar resolver o problema da maneira mais clara e eficiente possível.
+\end{enumerate}
+
+\section {Palavras-Chave}
+
+\begin{itemize}
+\item Batalha Naval;
+\item Tabuleiro;
+\item Comandos.
+\end{itemize}
+
+\newpage
+
+\section{Análise do Código}
+
+O nosso grupo teve dificulades nos comandos gera e resolve, não sendo possível fazer comentários sobre a nossa resolução destes comandos.
+Além disso, a análise do código gerado também não foi efetuada devido à incapacidade de entender o código \textit{assembly} do código gerado.
+
+\newpage
+
+\section{Desempenho do grupo}
+
+\subsection{1ª Fase}
+
+Na primeira fase do trabalho, o grupo não apresentou grandes dificuldades até conhecer o conceito das funções \textit{sscanf} e \textit{fgets}. Após o conhecimento destas funções, as dificuldades do grupo não passaram de simples dúvidas (por exemplo \textit{warnings} que o código pudesse ter). Relativamente à carga de trabalho, o grupo trabalhou uniformemente distribuindo bem as tarefas (como o código, relatório e testes) com a exceção do elemento Vítor Meira que só se apresentou à primeira aula e não respondeu quando foi solicitado.
+
+
+\subsection{2ª Fase}
+
+Na segunda fase do trabalho, o grupo, agora constituído por dois elementos devido à desistência do membro Vítor Meira do curso, apresentou mais dificuldades do que na primeira fase, consequência da aumentada dificuldade da etapa e da falta de um elemento do grupo. Nesta fase, apesar de se ter apresentado em vários horários de atendimento, não conseguiu criar o comando funcional D (comando \textit{undo}) nem identificar o erro que impedia o funcionamento correto deste. Relativamente às outras funções, apesar de não ter sido obtida a cotação total em todas, funcionavam com algumas falhas.
+O grupo dividiu o trabalho em partes iguais, tendo sido a carga de trabalho igual para os dois elementos.
+ 
+\subsection{3ª Fase}
+
+Na terceira fase do trabalho, o grupo sentiu as maiores dificuldades desde o início do projeto. Devido à nossa incapacidade de resolução do comando D, o grupo não conseguiu resolver os comandos Gera e Resolve, pois estes exigiam o funcionamento correto do comando D, utilizando uma tática \textit{backtracking}. A realização da análise do código gerado também não se realizou devido à incompreensão do assembly.
+Relativamente à documentação, como o grupo gradualmente fez comentários enquanto fazia as funções, bastou aprender a utilizar a ferramenta \textit{doxygen} para finalizar esta etapa do trabalho. O mesmo método foi utilizado na separação do código por módulos.
+Relativamente à carga de trabalho, como foi tradição nas outras fases, o trabalho foi dividido uniformemente pelo grupo.
+
+
+\newpage
+
+\section{Conclusões}
+
+Resumindo, o projeto sobre o famoso jogo batalha naval foi uma enorme ajuda neste semestre.
+Os objetivos estabelecidos no início do trabalho foram obtidos e com enorme satisfação nossa. Melhoramos o nosso conhecimento sobre a linguagem \textit{C} e as funções inseridas nas suas bibliotecas, sobre a resolução de problemas no código (tal como \textit{warnings})
+
+\end{document}
+
+\begin{enumerate}
+\item Conhecer melhor a linguagem \textit{C} e as suas bibliotecas;
+\item Ganhar conhecimentos sobre ciclos, vetores e outras particularidades da linguagem; 
+\item Analisar um enunciado e tentar resolver o problema da maneira mais clara e eficiente possível.
+\end{enumerate}
